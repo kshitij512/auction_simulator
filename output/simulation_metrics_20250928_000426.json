@@ -1,0 +1,13 @@
+{
+  "total_auctions": 40,
+  "total_bidders": 100,
+  "start_time": "2025-09-28T00:04:24.4354669+05:30",
+  "end_time": "2025-09-28T00:04:26.4533433+05:30",
+  "total_duration": 2018391100,
+  "max_goroutines": 4042,
+  "memory_usage_mb": 3.551055908203125,
+  "successful_auctions": 40,
+  "failed_auctions": 0,
+  "total_bids_received": 972,
+  "average_bids_per_auction": 24.3
+}

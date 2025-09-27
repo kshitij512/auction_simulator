@@ -1,0 +1,12 @@
+{
+  "auction_id": "auction-9",
+  "winner": {
+    "bidder_id": "bidder-87",
+    "amount": 101.95,
+    "timestamp": "2025-09-28T00:15:31.7297237+05:30"
+  },
+  "total_bids": 62,
+  "duration": 1996726300,
+  "start_time": "2025-09-28T00:15:29.7695412+05:30",
+  "end_time": "2025-09-28T00:15:31.7662675+05:30"
+}
