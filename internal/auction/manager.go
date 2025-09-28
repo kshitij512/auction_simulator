@@ -81,7 +81,7 @@ func (m *Manager) GetMetrics() *Metrics {
 }
 
 // RecordResult processes auction results
-func (m *Manager) RecordResult(result *types.AuctionResult) { // Changed to types.AuctionResult
+func (m *Manager) RecordResult(result *types.AuctionResult) {
 	m.metrics.mu.Lock()
 	defer m.metrics.mu.Unlock()
 

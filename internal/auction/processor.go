@@ -19,9 +19,9 @@ func NewProcessor(auction *Auction) *Processor {
 }
 
 // Run executes the auction and returns the result
-func (p *Processor) Run(ctx context.Context) *types.AuctionResult { // Changed to types.AuctionResult
+func (p *Processor) Run(ctx context.Context) *types.AuctionResult {
 	startTime := time.Now()
-	result := &types.AuctionResult{ // Changed to types.AuctionResult
+	result := &types.AuctionResult{
 		AuctionID: p.auction.ID,
 		StartTime: startTime,
 	}
@@ -58,7 +58,7 @@ func (p *Processor) Run(ctx context.Context) *types.AuctionResult { // Changed t
 }
 
 // determineWinner selects the highest bidder
-func (p *Processor) determineWinner() *types.Bid { // Changed to types.Bid
+func (p *Processor) determineWinner() *types.Bid {
 	if len(p.auction.Bids) == 0 {
 		return nil
 	}
@@ -74,6 +74,6 @@ func (p *Processor) determineWinner() *types.Bid { // Changed to types.Bid
 }
 
 // AddBid safely adds a bid to the auction
-func (p *Processor) AddBid(bid types.Bid) { // Changed to types.Bid
+func (p *Processor) AddBid(bid types.Bid) {
 	p.auction.Bids = append(p.auction.Bids, bid)
 }

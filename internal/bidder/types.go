@@ -25,10 +25,10 @@ type BidderConfig struct {
 func DefaultBidderConfig() *BidderConfig {
 	return &BidderConfig{
 		MinBidChance: 0.6,
-		MaxBidChance: 0.95,
-		MinBaseBid:   10.0,
-		MaxBaseBid:   100.0,
-		MinSpeedMS:   10,
-		MaxSpeedMS:   500,
+		MaxBidChance: 0.8,
+		MinBaseBid:   50.0,
+		MaxBaseBid:   150.0,
+		MinSpeedMS:   5,
+		MaxSpeedMS:   250,
 	}
 }
